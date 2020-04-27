@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sort_by_default"
+        android:orderInCategory="90"
+        android:title="默认排序"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_by_date"
+        android:orderInCategory="100"
+        android:title="按时间排序"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_by_significance"
+        android:orderInCategory="111"
+        android:title="按重要性排序"
+        app:showAsAction="never" />
+</menu>

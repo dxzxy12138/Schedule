@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/todo_set_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/label"
+            android:icon="@drawable/ic_line_weight_black"
+            android:title="默认集" />
+
+        <item
+            android:id="@+id/label1"
+            android:icon="@drawable/ic_line_weight_black"
+            android:title="集合1" />
+
+        <item
+            android:id="@+id/label2"
+            android:icon="@drawable/ic_line_weight_black"
+            android:title="集合2" />
+
+        <item
+            android:id="@+id/label_have_done"
+            android:icon="@drawable/ic_check_box_black_24dp"
+            android:title="已完成" />
+
+    </group>
+
+    <item
+        android:id="@+id/add_todo_set_group"
+        android:icon="@drawable/ic_add_circle_outline_black"
+        android:title="新建集" />
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_black"
+                android:title="设置" />
+        </menu>
+    </item>
+
+</menu>
