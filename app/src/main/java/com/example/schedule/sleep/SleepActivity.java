@@ -87,55 +87,12 @@ public class SleepActivity extends AppCompatActivity implements
         bean3.setMediaName("炉火");
         bean3.setMediaDercribe("温暖冬日的闲暇时光");
         bean3.setPic(R.drawable.fire);
-/*
-        CardBean bean4 = new CardBean();
-        bean4.setMediaUrl("http://twn29004.top/wp-content/uploads/Pianoboy高至豪-The-truth-that-you-leave.mp3");
-        bean4.setMediaName("5");
-        bean4.setMediaDercribe("球队：芝加哥公牛");
-        bean4.setPic(R.drawable.jordan);
 
-        CardBean bean5 = new CardBean();
-        bean5.setMediaUrl("http://twn29004.top/wp-content/uploads/Delacey-Dream-It-Possible.mp3");
-        bean5.setMediaName("6");
-        bean5.setMediaDercribe("球队：迈阿密热火");
-        bean5.setPic(R.drawable.wade);
-
-        CardBean bean6 = new CardBean();
-        bean6.setMediaUrl("http://twn29004.top/wp-content/uploads/Pianoboy高至豪-The-truth-that-you-leave.mp3");
-        bean6.setMediaName("7");
-        bean6.setMediaDercribe("球队：达拉斯小牛");
-        bean6.setPic(R.drawable.derk);
-
-        CardBean bean7 = new CardBean();
-        bean7.setMediaUrl("http://twn29004.top/wp-content/uploads/Delacey-Dream-It-Possible.mp3");
-        bean7.setMediaName("8");
-        bean7.setMediaDercribe("球队：波特兰开拓者");
-        bean7.setPic(R.drawable.lilade);
-
-        CardBean bean8 = new CardBean();
-        bean8.setMediaUrl("http://twn29004.top/wp-content/uploads/Pianoboy高至豪-The-truth-that-you-leave.mp3");
-        bean8.setMediaName("9");
-        bean8.setMediaDercribe("球队：金州勇士");
-        bean8.setPic(R.drawable.curry01);
-
-        CardBean bean9 = new CardBean();
-        bean9.setMediaUrl("http://twn29004.top/wp-content/uploads/Delacey-Dream-It-Possible.mp3");
-        bean9.setMediaName("10");
-        bean9.setMediaDercribe("球队：波士顿凯尔特人");
-        bean9.setPic(R.drawable.irving01);
-*/
         cardBeenList.add(bean0);
         cardBeenList.add(bean1);
         cardBeenList.add(bean2);
         cardBeenList.add(bean3);
-/*
-        cardBeenList.add(bean4);
-        cardBeenList.add(bean5);
-        cardBeenList.add(bean6);
-        cardBeenList.add(bean7);
-        cardBeenList.add(bean8);
-        cardBeenList.add(bean9);
-*/
+
         Collections.reverse(cardBeenList);
         mCardBeanList.addAll(0,cardBeenList);
     }
@@ -289,10 +246,4 @@ public class SleepActivity extends AppCompatActivity implements
         }
     }
 
-    class MyRunable implements Runnable{
-        @Override
-        public void run() {
-            mPbBuffer.setVisibility(View.VISIBLE);
-        }
-    }
 }

@@ -67,20 +67,6 @@ public class CardManager extends RecyclerView.LayoutManager {
             layoutDecoratedWithMargins(view,widthSpace/2,heightSpace/2
                     ,widthSpace/2+getDecoratedMeasuredWidth(view)
                     ,heightSpace/2+getDecoratedMeasuredHeight(view));
-            //改变View的大小跟位置
-            int level = Math.abs(i-itemCount+1);
-            //如果是最底层的两个itemView
-            /*
-            if(level>MAX_COUNT-3){
-                //进行缩放
-                view.setScaleX(1-SCALE_RATIO*(MAX_COUNT-2));
-                //进行平移
-                view.setTranslationY(TRANS_RATIO*(MAX_COUNT-2));
-            }else if(level>0){
-                view.setScaleX(1-SCALE_RATIO*level);
-                view.setTranslationY(TRANS_RATIO*level);
-            }
-            */
         }
     }
 }

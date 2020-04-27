@@ -86,15 +86,6 @@ public class CardHelperCallback extends ItemTouchHelper.Callback {
         //获取itemView总量
         int itemCount = recyclerView.getChildCount();
 
-        //移除时为底部显示的View增加动画
-        /*
-        for (int i = 1;i<CardManager.MAX_COUNT-1;i++){
-            View view = recyclerView.getChildAt(i);
-            float t = 1/(1-CardManager.SCALE_RATIO*ratio)-CardManager.SCALE_RATIO*(itemCount-i-1);
-            view.setScaleX(t);
-            view.setTranslationY(-CardManager.TRANS_RATIO*ratio+CardManager.TRANS_RATIO*(itemCount-i-1));
-        }
-         */
 
         //为被拖动的View增加透明度动画
         View view = recyclerView.getChildAt(itemCount-1);

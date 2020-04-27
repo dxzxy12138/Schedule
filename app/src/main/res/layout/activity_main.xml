@@ -11,7 +11,7 @@
         android:id="@+id/btn_todo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ToDoLits"
+        android:text="ToDoList"
         android:textSize="20sp"
         android:textAllCaps="false"
         />
