@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-                                              android:orientation="vertical">
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btn_todo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ToDoList"
-        android:textSize="20sp"
+        android:textSize="?font20"
         android:textAllCaps="false"
         />
 
@@ -20,7 +20,26 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_sleep"
             android:text="Sleep"
-            android:textSize="20sp"
+            android:textSize="?font20"
             android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_statistic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="statistic"
+        android:textSize="?font20"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Up"
+        android:textSize="?font20"
+        android:textAllCaps="false"/>
+
+
+
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>

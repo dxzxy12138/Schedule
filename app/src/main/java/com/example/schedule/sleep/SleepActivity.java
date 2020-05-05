@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.schedule.R;
+import com.example.schedule.ThemeChangeUtil;
 
 import java.io.IOException;
 import java.util.*;
@@ -51,10 +52,9 @@ public class SleepActivity extends AppCompatActivity implements
     private boolean flag = false;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ThemeChangeUtil.changeTheme(this);    /*fhw修改*/
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sleep);
         init();

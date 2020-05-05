@@ -8,5 +8,9 @@
     <color name="colorWhite">#ffffff</color>
     <color name="layoutBackGround">#fafafa</color>
     <color name="colorBlank">#000000</color>
-
+    <color name="green">#0FFF00</color>
+    <color name="red">#e11418</color>
+    <color name="gray">#C5C7C7</color>
+    <color name="white">#ffffff</color>
+    <color name="text_color">#CFD5DE</color>
 </resources>

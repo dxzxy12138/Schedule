@@ -33,7 +33,7 @@
             android:focusable="false"
             android:text="Hello Title 你好"
             android:textColor="@color/colorGray"
-            android:textSize="7pt" />
+            android:textSize="?font16" />
 
         <TextView
             android:layout_width="match_parent"
