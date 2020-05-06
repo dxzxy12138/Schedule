@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_night"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="夜间模式切换"
+        android:textSize="?font20"/>
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_night"
+        android:text="帮助"
+        android:textSize="?font20" />
+
+    <Button
+        android:id="@+id/te2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="字体大小切换"
+        android:layout_below="@+id/btn_help"
+        android:textSize="?font20"/>
+
+    <RadioGroup
+        android:id="@+id/btn_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/te2"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小"
+            android:textSize="?font20"/>
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中"
+            android:textSize="?font20"/>
+        <RadioButton
+            android:id="@+id/rb_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大"
+            android:textSize="?font20"/>
+    </RadioGroup>
+
+</RelativeLayout>

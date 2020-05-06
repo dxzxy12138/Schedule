@@ -11,4 +11,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help">帮助示例:\n &#160; &#160; 该APP可以创建代办事项，写日记，助眠，专注模式等功能。\n &#160; &#160; 如果你有什么不明白的，可以与我们的狗哥联系。\n</string>
+    <string name="QQ"> 性感渣男，在线陪聊！\nQQ：1029018802</string>
 </resources>

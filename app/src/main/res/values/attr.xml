@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>                 /*fhw*/
+     <attr name="contentStyle" format="reference"/>
+      <attr name="titleStyle" format="reference"/>
+      <attr name="buttonBg" format="reference|color"/>
+      <attr name="buttonTextColor" format="reference|color"/>
+      <attr name="checkTextColor" format="reference|color"/>
+      <attr name="switchTextColor" format="reference|color"/>
+
+
+    <attr name="font10" format="dimension" />
+    <attr name="font11" format="dimension" />
+    <attr name="font12" format="dimension" />
+    <attr name="font13" format="dimension" />
+    <attr name="font14" format="dimension" />
+    <attr name="font15" format="dimension" />
+    <attr name="font16" format="dimension" />
+    <attr name="font17" format="dimension" />
+    <attr name="font18" format="dimension" />
+    <attr name="font19" format="dimension" />
+    <attr name="font20" format="dimension" />
+    <attr name="font21" format="dimension" />
+    <attr name="font22" format="dimension" />
+    <attr name="font23" format="dimension" />
+    <attr name="font24" format="dimension" />
+    <attr name="font25" format="dimension" />
+    <attr name="font26" format="dimension" />
+    <attr name="font27" format="dimension" />
+    <attr name="font28" format="dimension" />
+    <attr name="font29" format="dimension" />
+    <attr name="font30" format="dimension" />
+
+
+
+</resources>

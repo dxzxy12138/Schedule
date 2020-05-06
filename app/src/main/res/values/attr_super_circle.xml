@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SuperCircleView">
+
+        <!-- 圆的半径 -->
+        <attr name="min_circle_radio" format="integer"/>
+
+        <!-- 圆环的宽度 -->
+        <attr name="ring_width" format="float"/>
+
+        <!-- 内圆的颜色 -->
+        <attr name="circle_color" format="color"/>
+
+        <!-- 外圆的颜色 -->
+        <attr name="max_circle_color" format="color"/>
+
+        <!-- 圆环的默认颜色 -->
+        <attr name="ring_normal_color" format="color"/>
+
+        <!-- 圆环要显示的彩色的区域(随着数值的改变,显示不同大小的彩色区域)-->
+        <attr name="ring_color_select" format="integer"/>
+
+        <!-- 绘制内容的数值 -->
+        <attr name="maxValue" format="integer" />
+        <attr name="value" format="integer" />
+
+    </declare-styleable>
+
+</resources>
