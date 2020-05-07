@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private  Button mBtnSleep;
     private  Button mBtnSet;
     private Button mBtnStatistic;
+    private Button mBtnDiary;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnSleep = findViewById(R.id.btn_sleep);
         mBtnSet = findViewById(R.id.btn_set);
         mBtnStatistic=findViewById(R.id.btn_statistic);
+        mBtnDiary=findViewById(R.id.btn_diary);
         setListeners();
     }
 
@@ -35,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnSleep.setOnClickListener(onClick);
         mBtnSet.setOnClickListener(onClick);
         mBtnStatistic.setOnClickListener(onClick);
+        mBtnDiary.setOnClickListener(onClick);
     }
 
     private class OnClick implements View.OnClickListener {
@@ -54,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.btn_statistic:
                     intent = new Intent(MainActivity.this, StatisticActivity.class);
+                    break;
+                case R.id.btn_diary:
+                    intent = new Intent(MainActivity.this, DiaryActivity.class);
                     break;
                 default:
                     break;

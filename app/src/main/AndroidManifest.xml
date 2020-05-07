@@ -12,9 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".statistic.StatisticActivity">
-            android:label="统计"
-        </activity>
+        <activity android:name=".DiaryActivity"></activity>
+        <activity android:name=".diary.NewActivity" />
+        <activity
+            android:name=".statistic.StatisticActivity"
+            android:label="统计" />
         <activity android:name=".set.helpActivity" />
         <activity android:name=".set.SetActivity" />
         <activity
@@ -36,7 +38,6 @@
             android:name=".NewItemActivity"
             android:label="新建"
             android:theme="@style/AppTheme.NoActionBar" />
-
     </application>
 
 </manifest>

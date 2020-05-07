@@ -38,8 +38,13 @@
         android:textSize="?font20"
         android:textAllCaps="false"/>
 
-
-
+    <Button
+        android:id="@+id/btn_diary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diary"
+        android:textAllCaps="false"
+        android:textSize="?font20" />
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
