@@ -12,13 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DiaryActivity"></activity>
-        <activity android:name=".diary.NewActivity" />
-        <activity
-            android:name=".statistic.StatisticActivity"
-            android:label="统计" />
-        <activity android:name=".set.helpActivity" />
-        <activity android:name=".set.SetActivity" />
+        <activity android:name=".FocusActivity"></activity>
         <activity
             android:name=".sleep.SleepActivity"
             android:label="助眠模式"
