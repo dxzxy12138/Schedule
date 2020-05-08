@@ -55,7 +55,7 @@
                     android:gravity="center_vertical"
                     android:paddingLeft="@dimen/new_item_margin"
                     android:text="7月4日"
-                    android:textSize="7pt" />
+                    android:textSize="?font16" />
 
                 <TextView
                     android:id="@+id/label_text"
@@ -65,7 +65,7 @@
                     android:gravity="center_vertical|right"
                     android:paddingRight="@dimen/new_item_margin"
                     android:text="默认集"
-                    android:textSize="7pt" />
+                    android:textSize="?font16" />
 
                 <ImageButton
                     android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
                 android:gravity="center_vertical"
                 android:minLines="2"
                 android:textColor="@color/colorGray"
-                android:textSize="8pt" />
+                android:textSize="?font18" />
 
         </LinearLayout>
 
