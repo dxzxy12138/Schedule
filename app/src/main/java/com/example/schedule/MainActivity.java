@@ -2,6 +2,7 @@ package com.example.schedule;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private  Button mBtnSet;
     private Button mBtnStatistic;
     private Button mBtnDiary;
-
+    private Button mBtnFocus;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         ThemeChangeUtil.changeTheme(this);
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnSet = findViewById(R.id.btn_set);
         mBtnStatistic=findViewById(R.id.btn_statistic);
         mBtnDiary=findViewById(R.id.btn_diary);
+        mBtnFocus=findViewById(R.id.btn_focus);
         setListeners();
     }
 
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnSet.setOnClickListener(onClick);
         mBtnStatistic.setOnClickListener(onClick);
         mBtnDiary.setOnClickListener(onClick);
+        mBtnFocus.setOnClickListener(onClick);
     }
 
     private class OnClick implements View.OnClickListener {
@@ -60,6 +63,9 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.btn_diary:
                     intent = new Intent(MainActivity.this, DiaryActivity.class);
+                    break;
+                case R.id.btn_focus:
+                    intent = new Intent(MainActivity.this, FocusActivity.class);
                     break;
                 default:
                     break;
